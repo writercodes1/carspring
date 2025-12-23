@@ -14,7 +14,7 @@ import com.example.demo.repository.userRepo;
 
 @RestController
  
-@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app")
+@CrossOrigin("*")
 public class userController {
 
 	 
