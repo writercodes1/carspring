@@ -27,7 +27,9 @@ import com.example.demo.repository.productRepo;
 
 @RestController
 // @RequestMapping("/api/vl")
-@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app/")
+@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app")
+
+
 public class productController {
 
 	@Autowired
@@ -38,6 +40,11 @@ public class productController {
 	
 	@Autowired
 	payRepo payrepo;
+	
+	
+	
+ 	 
+
 	
 	@GetMapping("/msg")
 	public  String Produc() {

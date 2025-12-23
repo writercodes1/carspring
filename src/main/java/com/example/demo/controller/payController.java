@@ -14,7 +14,7 @@ import com.example.demo.repository.payRepo;
 
 @RestController
 
-@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app/")
+@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app")
 public class payController {
 
 	
