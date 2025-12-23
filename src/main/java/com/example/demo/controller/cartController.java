@@ -15,7 +15,7 @@ import com.example.demo.repository.cartRepo;
 
 @RestController
  
-@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app/")
+@CrossOrigin(origins = "http://angular-spring-boot-project-33ws.vercel.app/")
 public class cartController {
 	@Autowired
 cartRepo carrepo;

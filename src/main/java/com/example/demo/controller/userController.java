@@ -14,10 +14,10 @@ import com.example.demo.repository.userRepo;
 
 @RestController
  
-@CrossOrigin(origins = "https://angular-spring-boot-project-33ws.vercel.app/")
+@CrossOrigin(origins = "http://angular-spring-boot-project-33ws.vercel.app/")
 public class userController {
 
-	
+	 
 	@Autowired
 	userRepo userrepo;
 	
