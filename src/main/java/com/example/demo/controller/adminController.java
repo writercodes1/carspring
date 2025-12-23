@@ -12,7 +12,7 @@ import com.example.demo.model.Admin;
 import com.example.demo.repository.adminRepo;
 @RestController
 
-@CrossOrigin(origins="*")
+//@CrossOrigin(origins="*")
 public class adminController {
 	
 	@Autowired
