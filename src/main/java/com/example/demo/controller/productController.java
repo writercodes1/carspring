@@ -27,7 +27,7 @@ import com.example.demo.repository.productRepo;
 
 @RestController
 // @RequestMapping("/api/vl")
-//@CrossOrigin(origins="https://angular-spring-boot-project-git-main-writercodes1s-projects.vercel.app") 
+@CrossOrigin(origins="https://angular-spring-boot-project-git-main-writercodes1s-projects.vercel.app") 
 
 
 public class productController {
