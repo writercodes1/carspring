@@ -14,7 +14,7 @@ import com.example.demo.repository.payRepo;
 
 @RestController
 
-@CrossOrigin("*")
+@CrossOrigin(origins="*")
 public class payController {
 
 	

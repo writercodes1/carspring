@@ -14,7 +14,7 @@ import com.example.demo.repository.userRepo;
 
 @RestController
  
-@CrossOrigin("*")
+@CrossOrigin(origins="*")
 public class userController {
 
 	 

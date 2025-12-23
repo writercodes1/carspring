@@ -27,7 +27,7 @@ import com.example.demo.repository.productRepo;
 
 @RestController
 // @RequestMapping("/api/vl")
-@CrossOrigin("*")
+@CrossOrigin(origins="*") 
 
 
 public class productController {
