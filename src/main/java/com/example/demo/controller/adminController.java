@@ -12,7 +12,7 @@ import com.example.demo.model.Admin;
 import com.example.demo.repository.adminRepo;
 @RestController
 
-@CrossOrigin(origins="https://angular-spring-boot-project-g-git-e41213-writercodes1s-projects.vercel.app")
+@CrossOrigin(origins="https://angular-spring-boot-project.vercel.app")
 public class adminController {
 	
 	@Autowired
